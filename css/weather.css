@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    background-image: url("/img/cloud-background.jpg");
+    background-size: cover;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+
+}
+
+ul {
+    list-style: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+#myMap {
+    padding-left: 100px;
+    justify-content: center;
+    margin-left: 130px;
+    margin-top: 50px;
+    width: 13rem;
+    border: solid 5px #d7d7d7;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 5);
+    border-radius: 30px;
+    z-index: 3;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 9em;
+
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-right: 40px;
+    width: 97%;
+    border: solid 5px #d7d7d7;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 5);
+    border-radius: 50px;
+    z-index: 4;
+
+}
+
+.card-header {
+    font-size: larger;
+}
+
+
+#map {
+    top: 3em;
+    bottom: 0;
+    height: 500px;
+    width: 100%;
+    border: solid 2px #d7d7d7;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 5);
+    border-radius: 50px;
+    z-index: 5;
+
+}
+
+
+/*Animated Background*/
+
+/*.page-wrapper {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    min-height: 100dvh;*/
+/*}*/
+/*video {*/
+/*    object-fit: cover;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.video-wrapper {*/
+/*    width: 100%;*/
+/*    height: 100vh;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    z-index: -2;*/
+/*    overflow: hidden;*/
+/*    text-align: center;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
